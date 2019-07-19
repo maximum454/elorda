@@ -1,0 +1,35 @@
+.contacts{
+	background-color: #000000;
+	padding: 133px 20px;
+	&__inner{
+		display: grid;
+		grid-template-columns: 248px 410px 1fr;
+		grid-template-rows: 290px;
+		grid-column-gap: 40px;
+		grid-template-areas: "info map feedback";
+
+	}
+	&__info{
+		grid-area: info;
+		h5{
+			color: #ffffff;
+			font-size: 13px;
+			font-weight: bold;
+			opacity: .4;
+			margin: 15px 0 5px;
+		}
+		a{
+			color: #ffffff;
+			font-size: 21px;
+			line-height: 29px;
+			font-weight: bold;
+			text-decoration: none;
+		}
+	}
+	&__map{
+		grid-area: map;
+	}
+	&__feeadback{
+		grid-area: feedback;
+	}
+}
