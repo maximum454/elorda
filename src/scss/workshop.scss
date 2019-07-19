@@ -1,0 +1,39 @@
+.workshop{
+	width: 100%;
+	max-width: 1190px;
+	margin: 0 auto 145px;
+	padding: 197px 0 212px;
+	background-image: url("img/workshop-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	&__inner{
+		background-color: #ffffff;
+		max-width: 596px;
+		padding: 50px;
+		margin-left: auto;
+		margin-right: 0;
+	}
+	&__title{
+		color: #000000;
+		font-size: 30px;
+		line-height: 34px;
+		margin: 0 0 26px;
+		position: relative;
+		padding-left: 21px;
+		&:before{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: #30CAF8;
+			width: 7px;
+			height: 100%;
+
+		}
+	}
+	&__anons{
+		font-size: 17px;
+		line-height: 33px;
+		font-weight: 500;
+	}
+}
