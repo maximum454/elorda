@@ -1,0 +1,26 @@
+.partners{
+	margin: 0 auto 161px;
+	&__title{
+		color: #000;
+		font-size: 30px;
+		line-height: 37px;
+		margin-bottom: 86px;
+		text-align: center;
+	}
+
+	&__item{
+		margin: 0 80px;
+	}
+	&__footer{
+		text-align: center;
+		margin-top: 27px;
+	}
+	&__link{
+		color: #2182ED;
+		font-size: 12px;
+		line-height: 18px;
+		text-decoration: none;
+		border-bottom: 1px solid #2182ED;
+		text-align: center;
+	}
+}
