@@ -1,4 +1,116 @@
 .footer{
+	background-color: #000000;
+	padding: 20px 20px 85px;
+	img{
+		max-width: 100%;
+	}
+	&__inner{
+		display: grid;
+		grid-template-columns: 1fr 178px 178px  194px;
+		grid-template-rows: auto;
 
+		grid-column-gap: 66px;
+	}
+	h5{
+		color: #0091CA;
+		font-size: 15px;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin: 0 0 25px;
+	}
+	h6{
+		color: #ffffff;
+		font-size: 11px;
+		margin: 0 0 5px;
+		font-weight: 500;
+	}
+	&__license{
+		color: #ffffff;
+		font-size: 11px;
+		margin: 0 0 5px;
+		font-weight: 500;
+	}
+	&__logo{
+		max-width: 145px;
+		margin-bottom: 30px;
+	}
+	&__copy{
+		color: #ffffff;
+		font-size: 13px;
+	}
+	&__site{
+		display: inline-block;
+		color: #ffffff;
+		font-size: 13px;
+		margin-bottom: 31px;
+	}
+	&__contacts{
 
+	}
+	&__list{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	&__item{
+		margin-bottom: 15px;
+	}
+	&__link{
+		color: #ffffff;
+		font-size: 13px;
+		font-weight: 500;
+		text-decoration: none;
+	}
+	&__btn{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 43px;
+		padding:10px 12px 10px 44px;
+		margin-bottom: 18px;
+		border-radius: 5px;
+		color: #ffffff;
+		font-size: 13px;
+		text-decoration: none;
+		text-transform: uppercase;
+		position: relative;
+		&.instagram{
+			background: rgb(255,58,53);
+			background: -moz-linear-gradient(-45deg, rgba(255,58,53,1) 0%, rgba(255,203,97,1) 100%);
+			background: -webkit-linear-gradient(-45deg, rgba(255,58,53,1) 0%,rgba(255,203,97,1) 100%);
+			background: linear-gradient(135deg, rgba(255,58,53,1) 0%,rgba(255,203,97,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3a35', endColorstr='#ffcb61',GradientType=1 );
+			&:before{
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 12px;
+				transform: translate(0, -50%);
+				background-image: url("img/instagram.svg");
+				background-repeat: no-repeat;
+				background-size: 100%;
+				width: 22px;
+				height: 22px;
+			}
+		}
+		&.facebook{
+			background: rgb(78,108,174);
+			background: -moz-linear-gradient(-45deg, rgba(78,108,174,1) 0%, rgba(57,81,133,1) 100%);
+			background: -webkit-linear-gradient(-45deg, rgba(78,108,174,1) 0%,rgba(57,81,133,1) 100%);
+			background: linear-gradient(135deg, rgba(78,108,174,1) 0%,rgba(57,81,133,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e6cae', endColorstr='#395185',GradientType=1 );
+			&:before{
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 12px;
+				transform: translate(0, -50%);
+				background-image: url("img/facebook.svg");
+				background-repeat: no-repeat;
+				background-size: 100%;
+				width: 22px;
+				height: 22px;
+			}
+		}
+	}
 }
