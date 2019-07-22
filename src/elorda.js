@@ -22,8 +22,22 @@ $('.js-partners').slick({
     infinite: true,
     speed: 300,
     slidesToShow: 1,
+    slidesToScroll: 1,
     centerMode: true,
-    variableWidth: true
+    variableWidth: true,
+    responsive: [
+        {
+            breakpoint: 600,
+            settings: {
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+
+            }
+        }
+    ]
 });
 
 $('.js-map-slider').slick({
