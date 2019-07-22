@@ -2,6 +2,9 @@
 	background-color: #000000;
 	padding: 133px 20px;
 	&__inner{
+		max-width: 1160px;
+		width: 100%;
+		margin: 0 auto;
 		display: grid;
 		grid-template-columns: 248px 410px 1fr;
 		grid-template-rows: 290px;

@@ -1,0 +1,66 @@
+.info{
+	display: grid;
+	grid-template-columns: 126px 152px 1fr;
+	grid-template-rows: auto;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	padding: 32px 0;
+	&__name{
+		color: rgba(#000,.5);
+		font-size: 8px;
+		line-height: 11px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+	&__anons{
+		color: #000;
+		font-size: 12px;
+		line-height: 16px;
+		font-weight: 500;
+	}
+	&__mark{
+		display: inline-block;
+		background-color: #FDDA90;
+		border-radius: 20px;
+		padding: 3px 10px;
+		color: #000;
+		font-size: 8px;
+	}
+	&__item{
+		padding-left: 30px;
+		background-repeat: no-repeat;
+		&.size{
+			background-image: url("img/size.svg");
+			background-size: 13px;
+		}
+		&.location{
+			background-image: url("img/location.svg");
+			background-size: 9px 13px;
+		}
+		&.type{
+			background-image: url("img/type.svg");
+			background-size: 7px 15px;
+		}
+		&.print{
+			background-image: url("img/print.svg");
+			background-size: 14px 13px;
+		}
+		&.view{
+			background-image: url("img/view.svg");
+			background-size: 14px 9px;
+		}
+		&.dop-info{
+			background-image: url("img/dop-info.svg");
+			background-size: 11px;
+		}
+	}
+	&__i{
+		display: inline-block;
+		background-image: url("img/i.svg");
+		background-repeat: no-repeat;
+		width: 9px;
+		height: 9px;
+		margin: 0 2px;
+	}
+}

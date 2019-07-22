@@ -2,6 +2,7 @@
 	max-width: 1207px;
 	margin: -135px auto 122px;
 	position: relative;
+	padding: 0 20px;
 	&__inner{
 		display: flex;
 		align-items: flex-end;
@@ -40,7 +41,7 @@
 		color: #000;
 		font-size: 12px;
 		line-height: 23px;
-		font-weight: 700;
+		font-weight: 500;
 
 	}
 	&__footer{
@@ -60,7 +61,7 @@
 		background-size: 15px 33px;
 		color: #000;
 		font-size: 16px;
-		font-weight: 700;
+		font-weight: 500;
 	}
 	&__btn{
 		width: 179px;

@@ -5,6 +5,9 @@
 		max-width: 100%;
 	}
 	&__inner{
+		max-width: 1160px;
+		width: 100%;
+		margin: 0 auto;
 		display: grid;
 		grid-template-columns: 1fr 178px 178px  194px;
 		grid-template-rows: auto;
