@@ -35,4 +35,24 @@
 	&__feeadback{
 		grid-area: feedback;
 	}
+	@include r(1100){
+		&__inner{
+			grid-template-columns: 248px 1fr 1fr;
+			grid-template-rows: auto;
+			grid-row-gap: 40px;
+			grid-column-gap: 40px;
+
+		}
+	}
+	@include r(768){
+		&__inner{
+			grid-template-columns:1fr;
+			grid-template-areas: "info" "map" "feedback";
+		}
+		&__info{
+			a{
+				display: block;
+			}
+		}
+	}
 }
