@@ -9,6 +9,8 @@ import './img/pilony.png'
 import './img/rotondy.png'
 import './img/map.jpg'
 import './img/partners-img.png'
+import './img/box-img-1.jpg'
+import './img/box-img-2.jpg'
 
 
 $('.js-partners').slick({
