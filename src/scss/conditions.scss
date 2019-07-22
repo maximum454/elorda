@@ -1,6 +1,7 @@
 .conditions{
 	max-width: 596px;
 	margin: 0 auto 117px;
+	padding: 0 20px;
 	&__title{
 		color: #000;
 		font-size: 30px;
@@ -34,6 +35,22 @@
 			background-repeat: no-repeat;
 			width: 26px;
 			height: 27px;
+		}
+	}
+	@include r(640){
+		&__title{
+			margin-bottom: 40px;
+			text-align: left;
+		}
+	}
+	@include r(375){
+		margin-bottom: 90px;
+		&__title{
+			font-size: 22px;
+			line-height: 26px;
+		}
+		&__item{
+			font-size: 16px;
 		}
 	}
 }
