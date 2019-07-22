@@ -51,5 +51,9 @@ $('.js-map-slider').slick({
 });
 
 
+$('.js-nav-btn').on('click', function () {
+    $('.nav__list').slideToggle();
+});
+
 
 

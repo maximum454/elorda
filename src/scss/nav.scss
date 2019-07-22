@@ -82,9 +82,21 @@
 			display: flex;
 			align-items: center;
 			justify-content: flex-end;
+			position: relative;
 		}
 		&__list{
 			display: none;
+			position: absolute;
+			right: -20px;
+			top: 62px;
+			background-color: #ffffff;
+			width: calc(100% + 40px + 145px);
+			padding: 20px;
+			z-index: 10;
+		}
+		&__item{
+			display: block;
+			margin: 0 0 10px;
 		}
 		&__btn{
 			display: flex;
