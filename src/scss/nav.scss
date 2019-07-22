@@ -65,4 +65,61 @@
 		background-repeat: no-repeat;
 		background-size: 13px 18px;
 	}
+	&__btn{
+		display: none;
+		width: 20px;
+		height: 17px;
+		.line{
+			width: 100%;
+			height: 2px;
+			background-color: #000000;
+		}
+	}
+	@include r(900){
+		grid-template-areas: "contacts contacts"
+		"logo menu";
+		&__menu{
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+		}
+		&__list{
+			display: none;
+		}
+		&__btn{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+		}
+	}
+	@include r(500){
+		&__contacts{
+			text-align: center;
+		}
+		&__phone{
+			font-size: 13px;
+			background-size: 13px 18px;
+		}
+		&__adress{
+			font-size: 13px;
+			background-size: 13px 18px;
+		}
+	}
+	@include r(375){
+		&__contacts{
+			text-align: left;
+		}
+		&__phone{
+			display: block;
+			font-size: 13px;
+			background-size: 11px;
+			margin-bottom: 10px;
+		}
+		&__adress{
+			display: block;
+			font-size: 13px;
+			background-size: 12px;
+		}
+	}
 }

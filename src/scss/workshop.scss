@@ -36,4 +36,15 @@
 		line-height: 33px;
 		font-weight: 500;
 	}
+	@include r(768){
+		padding: 40px 0;
+		margin-bottom: 200px;
+		&__inner{
+			max-width: 596px;
+			padding: 40px;
+			margin: 0 auto;
+			position: relative;
+			top: 200px;
+		}
+	}
 }
