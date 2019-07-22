@@ -9,6 +9,8 @@
 	}
 
 	&__item{
+		width: 100%;
+		max-width: 705px;
 		margin: 0 80px;
 	}
 	&__footer{
@@ -22,5 +24,44 @@
 		text-decoration: none;
 		border-bottom: 1px solid #2182ED;
 		text-align: center;
+	}
+	&__img{
+		margin-bottom: 38px;
+	}
+	&__caption{
+		display: grid;
+		grid-template-columns: 140px 1fr;
+		grid-template-rows: auto;
+		grid-column-gap: 37px;
+		grid-template-areas: "logo txt";
+	}
+	&__logo{
+		grid-area: logo;
+		img{
+			max-width: 100%;
+		}
+	}
+	&__txt{
+		grid-area: txt;
+	}
+	&__name{
+
+		background-color: #FECC02;
+		display: inline-block;
+		margin: 0;
+		color: #000;
+		font-size: 22px;
+		line-height: 25px;
+		font-weight: bold;
+		padding: 7px 15px;
+	}
+	&__anons{
+		background-color: rgba(#FECC02, .5);
+		display: inline-block;
+		margin: 0;
+		color: #000;
+		font-size: 16px;
+		line-height: 19px;
+		padding: 7px 15px;
 	}
 }

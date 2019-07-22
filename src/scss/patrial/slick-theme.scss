@@ -7,7 +7,7 @@
 .slick-prev,
 .slick-next {
 	position: absolute;
-	top: 50%;
+	top: 39%;
 	display: block;
 	background-color: #000000;
 	width: 32px;
@@ -42,19 +42,19 @@
 }
 
 .slick-prev {
-	left: 175px;
+	left: 260px;
 }
 
 
 
 .slick-prev:before {
-	content: '←';
+	content: '';
 }
 
 
 
 .slick-next {
-	right: 175px;
+	right: 260px;
 }
 .slick-next:before {
 	transform: translate(-50%,-50%) rotate(180deg);

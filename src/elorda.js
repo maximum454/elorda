@@ -11,6 +11,7 @@ import './img/map.jpg'
 import './img/partners-img.png'
 import './img/box-img-1.jpg'
 import './img/box-img-2.jpg'
+import './img/partners-logo.png'
 
 
 $('.js-partners').slick({
