@@ -27,14 +27,15 @@ $('.js-partners').slick({
     variableWidth: true,
     responsive: [
         {
-            breakpoint: 600,
+            breakpoint: 1024,
             settings: {
+
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 900,
             settings: {
-
+                arrows: false,
             }
         }
     ]
