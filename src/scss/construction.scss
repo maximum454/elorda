@@ -4,14 +4,20 @@
 	position: relative;
 	padding: 0 20px;
 	&__inner{
-		display: flex;
-		align-items: flex-end;
-		justify-content: space-between;
+
 		margin-bottom: 120px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto;
+		grid-column-gap: 20px;
+		grid-row-gap: 40px;
 	}
 
 	&__item{
-
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-end;
 	}
 	&__img{
 		text-align: center;
@@ -22,7 +28,8 @@
 		}
 	}
 	&__txt{
-		margin-top: -33px;
+		max-width: 238px;
+		margin: -33px auto 0;
 		z-index: 10;
 		position: relative;
 	}
@@ -37,10 +44,9 @@
 		text-transform: uppercase;
 	}
 	&__anons{
-		max-width: 238px;
+		margin: 0 auto;
 		background-color: #F2F2F2;
 		padding: 13px;
-		margin: 0;
 		color: #000;
 		font-size: 12px;
 		line-height: 23px;
@@ -109,19 +115,13 @@
 	}
 	@include r(1030){
 		&__inner{
-			display: flex;
-			flex-wrap: wrap;
-			margin-bottom: 120px;
+			grid-template-columns: 1fr 1fr;
 		}
 	}
-	@include r(780){
+	@include r(900){
 		margin: -84px auto 122px;
 		&__inner{
 			justify-content: space-around;
-		}
-		&__item{
-			max-width: 50%;
-			margin-bottom: 40px;
 		}
 		&__img{
 			max-height: 340px;
@@ -133,11 +133,7 @@
 	@include r(580){
 		margin-bottom: 90px;
 		&__inner{
-			margin-bottom: 20px;
-		}
-		&__item{
-			max-width: calc(50% - 40px);
-			margin: 0 20px 40px;
+			margin-bottom: 60px;
 		}
 		&__name{
 			padding: 10px;
@@ -151,9 +147,13 @@
 			margin-bottom: 30px;
 		}
 	}
-	@include r(375){
-		&__item{
-			max-width: 100%;
+	@include r(320){
+		margin: -44px auto 122px;
+		&__inner{
+			grid-template-columns: 1fr;
+		}
+		&__info{
+			font-size: 15px;
 		}
 	}
 }

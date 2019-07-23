@@ -55,4 +55,13 @@
 			line-height: 22px;
 		}
 	}
+	@include r(320){
+		&__inner{
+			padding: 20px;
+		}
+		&__title{
+			font-size: 18px;
+			line-height: 24px;
+		}
+	}
 }

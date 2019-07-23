@@ -148,4 +148,25 @@
 			}
 		}
 	}
+	@include r(320){
+		height: 46vh;
+		&__description{
+			font-size: 16px;
+			margin-bottom: 10px;
+		}
+		&__title{
+			font-size: 38px;
+			margin-bottom: 30px;
+		}
+		&__inner{
+			text-align: center;
+			align-items: center;
+		}
+		&__btn{
+			display: block;
+			margin-bottom: 30px;
+			margin-right: 0;
+			background-image: none;
+		}
+	}
 }

@@ -49,8 +49,22 @@
 			font-size: 22px;
 			line-height: 26px;
 		}
+		&__anons{
+			font-size: 14px;
+			line-height: 22px;
+		}
 		&__item{
 			font-size: 16px;
+		}
+	}
+	@include r(320){
+		margin-bottom: 60px;
+		&__title{
+			font-size: 18px;
+			line-height: 24px;
+		}
+		&__item{
+			font-size: 13px;
 		}
 	}
 }

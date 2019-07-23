@@ -134,4 +134,9 @@
 			background-size: 12px;
 		}
 	}
+	@include r(320){
+		&__adress{
+			font-size: 12px;
+		}
+	}
 }

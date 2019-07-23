@@ -63,4 +63,15 @@
 		height: 9px;
 		margin: 0 2px;
 	}
+	@include r(1200){
+		grid-template-columns: 126px 1fr;
+	}
+	@include r(920){
+		max-width: 720px;
+		margin: 0 auto;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	@include r(480){
+		grid-template-columns: 1fr 1fr;
+	}
 }

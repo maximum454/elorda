@@ -124,4 +124,16 @@
 			}
 		}
 	}
+	@include r(375){
+		&__group{
+			flex-wrap: wrap;
+		}
+		&__input{
+			margin-bottom: 12px;
+			margin-right: 0;
+			&:last-of-type{
+				margin-bottom: 0;
+			}
+		}
+	}
 }

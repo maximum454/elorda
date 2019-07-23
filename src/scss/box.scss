@@ -162,4 +162,9 @@
 			margin-bottom: 30px;
 		}
 	}
+	@include r(375){
+		&__caption{
+			padding-bottom: 20px;
+		}
+	}
 }
